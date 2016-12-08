@@ -1,0 +1,17 @@
+body{
+  background-image: url('http://designscrazed.org/wp-content/uploads/2014/03/Crumpled-white-paper-texture.jpg');
+  background-width: 100vw;
+  background-repeat: repeat;
+}
+.title{
+  
+}
+#message{
+  width: 30vw;
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 5vw;
+  overflow: hidden;
+}
+.selected{
+  background-color: rgba(0,0,0,0.2);
+}

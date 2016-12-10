@@ -1,7 +1,9 @@
 var Up = true;
 var phrase = "";
+$(document).ready(() => {
+  document.getElementById("message").innerHTML ='...';
+});
 
-document.getElementById("message").innerHTML ='...';
 function addLetter(a) {
 if(Up===true){
   phrase+=a;

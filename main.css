@@ -1,10 +1,12 @@
 body{
   background-image: url('http://designscrazed.org/wp-content/uploads/2014/03/Crumpled-white-paper-texture.jpg');
   background-width: 100vw;
+  background-height: 100vh;
   background-repeat: repeat;
+  font-family: Tahoma, Geneva, sans-serif;
 }
 .title{
-  
+ 
 }
 #message{
   width: 30vw;
@@ -14,4 +16,26 @@ body{
 }
 .selected{
   background-color: rgba(0,0,0,0.2);
+}
+.btnSpecial{
+  border: 0.2em solid rgba(0,0,0,0.3);
+  border-radius: 0.4em;
+  width: 3vw;
+  min-width: 4.5em;
+  height: 2em;
+  margin-right: -0.2em;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+.letterKey{
+  border: 0.2em solid rgba(0,0,0,0.3);
+  border-radius: 0.4em;
+  margin: -0.1em -0.2em;
+  width: 2.5vw;
+  min-width: 2em;
+  height: 2em;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+#textInput{
+  border: 0.2em solid rgba(0,0,0,0.3);
+  border-radius: 1em;
 }
